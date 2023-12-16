@@ -1,7 +1,7 @@
 import axios from "axios";
 const API_URL = "http://localhost:3000"
 
-// get stripe key
+// get stripe key Api call
 export const getStripeApiKey = async () => {
     try {
         const response = await axios.get(`${API_URL}/stripe_api_key`);
@@ -13,7 +13,7 @@ export const getStripeApiKey = async () => {
     }
 };
 
-// process payment 
+// process payment Api call 
 export const processPayment = async () => {
     try {
         const response = await axios.post(`${API_URL}/process_payment`);
