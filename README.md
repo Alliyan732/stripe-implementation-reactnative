@@ -16,7 +16,7 @@ Before you start, make sure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/Alliyan732/Stripe-Implementation-MERN
+    git clone https://github.com/Alliyan732/stripe-implementation-reactnative
     ```
 
 2. Change into the project directory:
@@ -28,9 +28,9 @@ Before you start, make sure you have the following installed:
 3. Install dependencies for both the server and the client:
 
     ```bash
-    cd Backend
+    cd Server
     npm install
-    cd ../Frontend
+    cd ../App
     npm install
     ```
 
@@ -39,7 +39,7 @@ Before you start, make sure you have the following installed:
     Create a `.env` file in the `server` directory with the following content:
 
     ```env
-    PORT=8080
+    PORT='  '
     MONGODB_URI=mongodb://localhost:27017/yourdatabase
     STRIPE_API_KEY= your_stripe_api_key
     STRIPE_SECRET_KEY=your_stripe_secret_key
@@ -52,18 +52,16 @@ Before you start, make sure you have the following installed:
     In one terminal window, run the server:
 
     ```bash
-    cd Backend
+    cd Server
     npm start
     ```
 
     In another terminal window, run the client:
 
     ```bash
-    cd Frontend
-    npm start
+    cd App
+    npx react-native run-android
     ```
-
-6. Open your browser and navigate to `http://localhost:3000` to see the application.
 
 ## Stripe API
 
@@ -79,3 +77,5 @@ Aalliyan Alvi
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+LinkdeIn: https://www.linkedin.com/in/alliyan-alvi/
