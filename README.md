@@ -1,5 +1,5 @@
 
-# MERN Stripe Implementation
+# ReactNative Stripe Implementation
 
 This repository contains an example implementation of Stripe payment processing in a MERN (MongoDB, Express.js, React, Node.js) stack.
 
@@ -8,7 +8,6 @@ This repository contains an example implementation of Stripe payment processing 
 Before you start, make sure you have the following installed:
 
 - Node.js and npm: [Node.js Downloads](https://nodejs.org/en/download/)
-- MongoDB: [MongoDB Downloads](https://www.mongodb.com/try/download/community)
 - Stripe Account: [Stripe Dashboard](https://dashboard.stripe.com/register)
 
 ## Getting Started
@@ -40,7 +39,6 @@ Before you start, make sure you have the following installed:
 
     ```env
     PORT='  '
-    MONGODB_URI=mongodb://localhost:27017/yourdatabase
     STRIPE_API_KEY= your_stripe_api_key
     STRIPE_SECRET_KEY=your_stripe_secret_key
     ```
@@ -78,4 +76,9 @@ Aalliyan Alvi
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-LinkdeIn: https://www.linkedin.com/in/alliyan-alvi/
+## Support
+If you encounter any issues or have any questions or suggestions, please feel free to open an issue. We appreciate your feedback and contributions to the project.
+
+Email: alliyan732@gmail.com
+LinkedIn: https://www.linkedin.com/in/alliyan-alvi/
+Happy Coding! :)
