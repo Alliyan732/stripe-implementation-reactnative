@@ -64,6 +64,12 @@ const App = () => {
 
   return (
 
+    //Stripe Test payment data
+    // card: 4242 4242 4242 4242
+    // date: 4/24
+    // cvc: 424
+    // zip code: 42424
+    
     <StripeProvider publishableKey={stripeApiKey}>
       <View style={styles.container}>
         <Button title="Stripe Pay - 200" onPress={Pay} />        
