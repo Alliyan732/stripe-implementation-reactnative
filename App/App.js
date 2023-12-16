@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {
-  ScrollView,
   StyleSheet,
-  Text,
   View,
   Button,
   Alert
@@ -38,6 +36,9 @@ const App = () => {
     try {
       const response = await fetch("http://localhost:3000/process_payment", {
         method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
         body: JSON.stringify({ amount: amount }),
       });
       const data = await response.json();
